@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Goodreads Series Manager",
+  "version": "1.0",
+  "description": "Extend Goodreads with series management features - add entire series to shelves with proper book ordering",
+  
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  
+  "host_permissions": [
+    "https://www.goodreads.com/*"
+  ],
+  
+  "content_scripts": [
+    {
+      "matches": ["https://www.goodreads.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Goodreads Series Manager"
+  },
+  
+  "background": {
+    "service_worker": "background.js"
+  }
+}
