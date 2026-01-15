@@ -103,6 +103,165 @@
   font-size: 14px;
 }
 
+.shelf-options {
+  margin: 16px 0;
+  padding: 12px;
+  background: #f9f9f9;
+  border-radius: 4px;
+  border: 1px solid #eee;
+}
+
+.shelf-options label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.shelf-options input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.shelf-options input[type="text"] {
+  width: 100%;
+  padding: 6px 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+#newShelfOptions {
+  margin-left: 20px;
+  padding: 8px;
+  background: white;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+/* Create Series Shelf Modal Styles */
+.shelf-creation-form {
+  margin: 16px 0;
+}
+
+.shelf-creation-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #382110;
+}
+
+.shelf-creation-form input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.shelf-name-preview {
+  margin-bottom: 12px;
+  padding: 4px 8px;
+  background: #f0f8ff;
+  border: 1px solid #d0e7ff;
+  border-radius: 3px;
+  font-family: monospace;
+}
+
+.shelf-name-preview small {
+  color: #666;
+  font-size: 11px;
+}
+
+.shelf-name-preview #shelfNamePreview {
+  color: #00635D;
+  font-weight: bold;
+}
+
+.shelf-settings {
+  background: #f9f9f9;
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid #eee;
+}
+
+.shelf-settings label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-weight: normal;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.shelf-settings input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.book-preview {
+  margin: 16px 0;
+}
+
+.book-preview h4 {
+  margin: 0 0 8px 0;
+  color: #382110;
+  font-size: 14px;
+}
+
+.book-list-compact {
+  max-height: 150px;
+  overflow-y: auto;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  background: #fafafa;
+}
+
+.book-item-compact {
+  display: flex;
+  align-items: center;
+  padding: 4px 8px;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 12px;
+}
+
+.book-item-compact:last-child {
+  border-bottom: none;
+}
+
+.book-item-compact .book-order {
+  background: #382110;
+  color: white;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+.book-title-compact {
+  flex: 1;
+  color: #555;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Create Series Shelf Link Styles */
+.create-series-shelf-link {
+  display: inline-block;
+  font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+.create-series-shelf-link:hover {
+  text-decoration: none !important;
+}
+
 .book-list {
   max-height: 300px;
   overflow-y: auto;
