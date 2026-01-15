@@ -257,3 +257,5 @@ web-ext-artifacts/
 temp_*.txt
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,linux,macos,visualstudiocode,node
+
+har/**
